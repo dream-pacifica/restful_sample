@@ -30,7 +30,7 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
-        resources.add(com.example.restfulsample.rest.EmployeeResource.class);
+        resources.add(com.example.restfulsample.rest.employee.EmployeeResource.class);
     }
     
 }

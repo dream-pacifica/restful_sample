@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.restfulsample.model;
+package com.example.restfulsample.entity;
 
 /**
- * 社員情報modelクラス
+ * 社員情報Entity
  * 
  * @author masaya.tezuka
  */
-public class Employee {
+public class Employee extends BaseEntity {
 
     /**
      * ID

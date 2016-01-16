@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.example.restfulsample.result.employee;
+package com.example.restfulsample.entity.result.employee;
 
-import com.example.restfulsample.model.Employee;
+import com.example.restfulsample.entity.Employee;
+import com.example.restfulsample.entity.result.BaseResult;
 
 /**
- * 社員情報詳細resultクラス
+ * 社員情報取得Resultクラス
  * 
  * @author masaya.tezuka
  */
-public class EmployeeDetailResult {
-
-    /**
-     * 社員情報詳細
-     */
-    private Employee employee;
+public class GetEmployeeResult extends BaseResult {
+    
+    Employee employee;
 
     public Employee getEmployee() {
         return employee;
